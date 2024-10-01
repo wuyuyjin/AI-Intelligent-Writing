@@ -1,0 +1,15 @@
+.NMUIAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #e0e5ec;
+    box-shadow: 7px 7px 15px #a3b1c6,
+    -7px -7px 15px #ffffff;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.NMUIAvatar:hover {
+    box-shadow: inset 7px 7px 15px #a3b1c6,
+    inset -7px -7px 15px #ffffff;
+}

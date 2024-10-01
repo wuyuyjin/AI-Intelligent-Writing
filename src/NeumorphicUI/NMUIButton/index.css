@@ -1,0 +1,32 @@
+.NMUIButton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #333;
+    background-color: #E4EBF5;
+    border-radius: 12px;
+    box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+    transition: all 0.2s ease-in-out;
+    /*width: 100%;*/
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.NMUIButton.Primary {
+    color: white;
+    background-color: #7640EF;
+}
+
+.NMUIButton:active {
+    box-shadow: inset 6px 6px 12px #bebebe, inset -6px -6px 12px #ffffff;
+}
+
+.NMUIButton:hover {
+    box-shadow: 4px 4px 8px #bebebe, -4px -4px 8px #ffffff;
+}
+
+.NMUIButton:focus {
+    outline: none;
+}
