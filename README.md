@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+## Getting Started
+前置要求：本机安装node.js >= 18，配置pnpm(运行`npm install -g pnpm`),
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+如何运行程序：
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. 先git clone https://github.com/wuyuyjin/AI-Intelligent-Writing.git 下来
+2. cd 你的目录
+3. 打开该目录的终端运行`pnpm install`
+4. 然后再运行`pnpm run dev`
+5. 在chrome浏览器打开http://localhost:5173/即可
